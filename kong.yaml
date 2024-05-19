@@ -20,7 +20,7 @@ services:
         strip_path: false
 
   - name: places_service
-    host: placees_upstream
+    host: places_upstream
     protocol: http
     routes:
       - name: places
